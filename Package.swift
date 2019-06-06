@@ -1,10 +1,11 @@
+// swift-tools-version:4.0
+
 import PackageDescription
 
 let package = Package(
   name: "CancellationToken",
   targets: [
-    Target(name: "CancellationToken"),
-  ],
-  dependencies: []
+    .target(name: "CancellationToken"),
+  ]
 )
 
